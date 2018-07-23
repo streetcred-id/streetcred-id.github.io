@@ -8,9 +8,13 @@
 	<!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Streetcred</title>
-	<meta name="description" content="">
+	<meta name="description" content="Digital Credentials and Identity for Web 3.0">
 	<meta name="keywords" content="">
 
+	<meta property="og:title" content="Streetcred">
+	<meta property="og:image" content="https://streetcred.nyc/images/app_icon.png">
+	<meta property="og:description" content="Digital Credentials and Identity for Web 3.0">
+	<meta property="og:url" content="https://streetcred.nyc/">
 	<!-- ==============================================
 	Favicons
 	=============================================== -->
@@ -65,50 +69,21 @@
 				</div>
 				<nav class="collapse navbar-collapse" id="navbar" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
 					<ul class="nav navbar-nav navbar-right">
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="index.html">Solution 1</a>
-								</li>
-								<li>
-									<a href="index-2.html">Solution 2</a>
-								</li>
-								<li>
-									<a href="index-3.html">Solution 3</a>
-								</li>
-								<li>
-									<a href="index-4.html">Solution 4</a>
-								</li>
-								<li>
-									<a href="index-5.html">Solution 5</a>
-								</li>
-								<li>
-									<a href="#">Coming Soon</a>
-								</li>
-								<li>
-									<a href="#">Coming Soon</a>
-								</li>
-								<li>
-									<a href="#">Coming Soon</a>
-								</li>
-							</ul>
+						<li>
+							<a href="#banner">Home</a>
 						</li>
 						<li>
-							<a href="#">About</a>
+							<a href="#intro">About</a>
 						</li>
 						<li>
-							<a href="#">Team</a>
+							<a href="#team-meet">Team</a>
 						</li>
 						<li>
-							<a href="#">Prices</a>
+							<a href="#contact">Contact</a>
 						</li>
-						<li>
-							<a href="#">Contact</a>
-						</li>
-						<li>
+						<!-- <li>
 							<a href="#" class="btn btn-primary">Read the Whitepaper</a>
-						</li>
+						</li> -->
 					</ul>
 				</nav>
 			</div>
@@ -129,10 +104,10 @@
 									with the decentralized ecosystem.
 									<br />For users, we provide a way to manage their identities and store credentials in a secure wallet. Users have the
 									benefit of selective disclosure to prove claims about them without revealing sensitive information.
-									<br />Finally, our platform is built with developers in mind. We provide libraries and services that allows developers
+									<br />Finally, our platform is built with developers in mind. We provide libraries and services that allow developers
 									to build their own implementation or integrate their platforms with us.</p>
 							</div>
-							<a href="#" class="btn btn-primary">Start now</a>
+							<a href="#" class="btn btn-primary disabled" alt="Coming soon">Read the whitepaper</a>
 						</div>
 					</div>
 				</div>
@@ -142,6 +117,12 @@
 		 preserveAspectRatio="none">
 			<path d="M0,0S1.209,1.508,200.671,7.031C375.088,15.751,454.658,30,600,30V0H0ZM1200,0s-90.21,1.511-200.671,7.034C824.911,15.751,745.342,30,600,30V0h600Z"></path>
 		</svg>
+		<div class="circle-pulse circle-pulse-1"></div>
+		<div class="circle-pulse circle-pulse-2"></div>
+		<div class="circle-pulse circle-pulse-3"></div>
+		<div class="circle-pulse circle-pulse-4"></div>
+		<div class="circle-pulse circle-pulse-5"></div>	
+		<div class="circle-pulse circle-pulse-6"></div>	
 	</div>
 
 	<!-- INTRO -->
@@ -205,7 +186,9 @@
 								<div class="content-area">
 									<h3>Build your own</h3>
 									<span>
-										<!-- say something here -->
+										Our SDK and cloud API provide full access and framework for integrating the agent and wallet services with your system.
+										<br />
+										You can easily build your own agent service that works seamlessly with the Sovrin ecosystem.
 									</span>
 								</div>
 							</div>
@@ -330,17 +313,13 @@
 	</div>
 
 	<!-- FOOTER -->
-	<div class="section footer-1 color-overlay">
-		<svg class="svg svg-top" xmlns="http://www.w3.org/2000/svg" width="1200" fill="#f9fcfe" height="30" viewBox="0 0 1200 30"
-		 preserveAspectRatio="none">
-			<path d="M0,0S1.209,1.508,200.671,7.031C375.088,15.751,454.658,30,600,30V0H0ZM1200,0s-90.21,1.511-200.671,7.034C824.911,15.751,745.342,30,600,30V0h600Z"></path>
-		</svg>
+	<div id="contact" class="section footer-1 color-overlay">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 section-heading-1">
 					<h2 class="white">Newsletter</h2>
 					<p class="white">
-						Him Boisterous Invitation Dispatched Had Connection.
+						Find out when we release the beta platform and gain early access to our services.
 					</p>
 				</div>
 			</div>
@@ -352,7 +331,7 @@
 							<form action="php/newsletter.php" method="post">
 								<input id="email_newsletter" class="form-control" type="email" name="nf_email" placeholder="Enter Your Email" maxlength="50">
 								<button type="submit" class="btn btn-primary">
-									<span>Subscribe</span>
+									<span>Notify me</span>
 								</button>
 							</form>
 						</div>
@@ -388,7 +367,7 @@
 				</li>
 			</ul>
 			<div class="fcopy text-center">
-				© 2018 All Right Reserved. Created by Leyar
+				© 2018 All Right Reserved.
 			</div>
 		</div>
 	</div>
