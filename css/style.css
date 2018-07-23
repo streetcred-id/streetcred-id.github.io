@@ -1458,7 +1458,7 @@ textarea.form-control {
  * -----------------------------------------------------------------------------
  */
 .banner {
-  height: 100vh;
+  height: 70vh;
   position: relative;
   min-height: 600px;
   overflow: hidden;
@@ -1558,7 +1558,7 @@ textarea.form-control {
 }
 .banner-style-1 .head-img-inner {
   margin-top: 45px;
-  height: 100vh;
+  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -1599,7 +1599,7 @@ textarea.form-control {
   padding: 160px 0 100px;
 }
 .head-text-area.type-2 {
-  height: 100vh;
+  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -1897,6 +1897,7 @@ textarea.form-control {
 /*v1*/
 .intro-1 {
   position: relative;
+  margin-bottom: 100px;
 }
 .intro-1 > .container,
 .intro-1 > .container-fluid {
