@@ -1134,6 +1134,7 @@ textarea.form-control {
 }
 .swiper-slide img {
   width: 100%;
+  border: 1px solid #e2e2e2;
 }
 .swiper-button-next,
 .swiper-button-prev {
